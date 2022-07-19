@@ -1,0 +1,84 @@
+.row {
+  --bs-gutter-x: 0rem;
+}
+ 
+  .info-professor {
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info-item {
+    margin: 10px;
+  }
+  
+  .imgCardProjeto{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+
+   #imgCard{
+    width: 250px;
+    height: 250px;
+   }
+  
+  .card {
+    width: 18rem;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .cardLivros img {
+    width: 100%;
+    height: 20em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .btn_prof {
+    margin: 0.5rem;
+    border-style: none;
+    border-radius: 5px;
+    background-color:#03A65A  ;
+    width: 100%;
+    height: 3rem;
+  }
+
+  .btn_prof:hover {
+    background-color:#44b927;
+  }
+
+.btn_quero {
+    width: 100%;
+    background-image: linear-gradient(315deg, #A62E7C 25%, #1E4DD9 75%);
+    color: white;
+}
+
+.btn_quero:hover {
+    background-image: linear-gradient(315deg, #F2D22E 25%, #F2622E 75%);
+    color: #1E4DD9;
+}
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: white;
+    
+  }
+
+.sugestao{
+    background-image: linear-gradient(315deg, #a62e7c46 25%, #1E4DD9 75%);
+}
+
+  @media screen and (max-width: 768px) {
+    #trabalhos_card {
+        width: 25rem;
+    }
+  }
+      
+      

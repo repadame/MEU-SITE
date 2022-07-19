@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap, caso falhe o arquivo -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- CSS da página -->
+  <link rel="stylesheet" href="assets/css/cadastro.css" />
+
+  <title>Cadastro</title>
+</head>
+<body>
+  <main class='container'>
+    <form class='form'>
+      <h2>
+        Cadastro do Professor
+      </h2>
+      <label class='form-label' for='idProfessor'>
+        ID do Professor
+        <input class='form-control' id='idProfessor' type='number' placeholder='ex.: 12345678' />
+      </label>
+      <label class='form-label' for='nomeProfessor'>
+        Nome
+        <input class='form-control' id='nomeProfessor' type='text' placeholder='ex.: João da Silva' />
+      </label>
+      <label class='form-label' for='email'>
+        E-mail
+        <input class='form-control' id='email' type='email' placeholder='ex.: joao.silva@email.com' />
+      </label>
+      <label class='form-label' for='instituicaoEnsino'>
+        Instituição de Ensino
+        <select class='form-control' id='instituicaoEnsino'>
+          <option> E.E. Vila São Joaquim 2 </option>
+          <option> Outros </option>
+        </select>
+      </label>
+      <button class='btn btn-success' type='button'>Cadastrar</button>
+      <p>
+        <a href='index.html'>
+          Já tem uma conta? Faça login!!
+        </a>
+      </p>
+    </form>
+  </main>
+</body>
+</html>

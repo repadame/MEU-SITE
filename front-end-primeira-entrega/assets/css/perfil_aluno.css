@@ -1,0 +1,58 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.info-aluno {
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-item {
+  margin: 10px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.atividade {
+  display: flex;
+  align-items: center;
+}
+
+.atividade img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.ultimas-leituras {
+  display: flex;
+}
+
+.card {
+  width: 18rem;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.cardLivros img {
+  width: 100%;
+  height: 20em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.cardLivros p {
+  font-weight: bold;
+  text-align: center;
+}
