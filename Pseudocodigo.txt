@@ -51,7 +51,7 @@ inicio
            escreval("O cliente ", busca, " foi encontrado")
            escreval("")
       senao
-           escreval("O cliente ", busca, " nao est· cadastrado")
+           escreval("O cliente ", busca, " nao est√° cadastrado")
            escreval("")
       fimse
 fimprocedimento
